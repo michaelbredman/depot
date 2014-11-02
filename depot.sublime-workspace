@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"na",
+				"navigate"
+			],
+			[
+				"driver",
+				"driver"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"S",
+				"SAUCE_ACCESS_KEY"
+			],
+			[
+				"Acc",
+				"SAUCE_ACCESS_KEY"
+			],
+			[
+				"ACC",
+				"action_chains"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"Web",
+				"WebDriverWait"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"webdri",
+				"webdriver"
+			],
+			[
+				"Sau",
+				"SAUCE_ACCESS_KEY"
+			],
+			[
+				"p",
+				"parallel"
+			],
+			[
+				"SAU",
+				"SAUCE_ACCESS_KEY"
+			],
+			[
+				"si",
+				"si"
+			],
+			[
+				"re",
+				"requests"
+			],
+			[
+				"time",
+				"timeit"
+			],
+			[
+				"tim",
+				"timeit"
+			],
+			[
+				"result",
+				"result"
+			],
+			[
+				"de",
+				"desired_capabilities"
+			],
+			[
+				"t",
+				"td	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 687.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/applications/depot"
+	],
+	"file_history":
+	[
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/temp/basic_sauce.rb",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/BeautifyRuby/BeautifyRuby.sublime-settings",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/User/HTML (Rails).sublime-settings",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/applications/ctapp/test/selenium/basic.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/applications/ctapp/app/views/layouts/application.html.erb",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/db_connect.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/sauce/secret_sauce.sublime-project",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/applications/masher/Gemfile",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/webinar/parallel.py",
+		"/Users/mredman/Downloads/sauce_connect(4).log",
+		"/Users/mredman/Desktop/example.java",
+		"/Users/mredman/Downloads/sc_15448-1.log",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/applications/masher/app/views/d3/show.html.erb",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/sauce/secret_sauce.sublime-workspace",
+		"/Users/mredman/Desktop/saucelabs.com.har",
+		"/Users/mredman/Desktop/14981.py",
+		"/Users/mredman/Desktop/t.py",
+		"/Users/mredman/Sites/login.html",
+		"/Users/mredman/Sites/loginaction.html",
+		"/Users/mredman/Desktop/foo.py",
+		"/Users/mredman/Sites/webpage.html",
+		"/Users/mredman/Dropbox/Sauce/Development/docs.saucelabs.com/docs/markdown/reference/selenium-quickstart.md",
+		"/Users/mredman/Desktop/flights.py",
+		"/Users/mredman/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A456FA72-E2EE-4C90-8093-9BFA9935A21F/CodeSnippets/WebDriverBase.php",
+		"/Users/mredman/Dropbox/Sauce/Development/sample-code/sample-code/examples/java/junit/src/test/java/com/saucelabs/appium/SauceTest.java",
+		"/Users/mredman/Desktop/temp.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/io.appium.gappium.sampleapp/test/native-yiewd.js",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumServer/SeleniumServerConfiguration.txt",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/AppiumTest_MobileWebApp_Android.py",
+		"/Users/mredman/Dropbox/Sauce/Development/docs.saucelabs.com/docs/markdown/reference/sage.md",
+		"/Users/mredman/Desktop/appium.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/dotnet/SimpleTest/SimpleTest.sln",
+		"/Users/mredman/Desktop/notepad.bat",
+		"/Users/mredman/Desktop/data.json",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/temp/app.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/seleniumtests/basic_sauce.rb",
+		"/Users/mredman/Desktop/sendElementText.rb",
+		"/Users/mredman/Desktop/sendKeysToElement.rb",
+		"/Users/mredman/Downloads/sc-1.log",
+		"/Users/mredman/Dropbox/Sauce/Development/JavaScript/se-builder/docs/index.html",
+		"/Users/mredman/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumServer/SeleniumScripts/parallel.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/ruby/sauce_example.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/selenium_scripts.sublime-project",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/python/uicatalog.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/php/SauceTest.php",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/dotnet/SimpleTest/SimpleTest/AssemblyInfo.cs",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/dotnet/SimpleTest/SimpleTest/packages.config",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/pagesource.txt",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/node/promises.js",
+		"/Users/mredman/Dropbox/Sauce/Competition/BrowserStack/automate-python-samples-master/parallel_tests/README.md",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/dotnet/SimpleTest/packages/repositories.config",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/ruby/cucumber/features/support/env.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/ruby/cucumber/features/calculator.feature",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/python/simple_real_device.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/dotnet/SimpleTest/SimpleTest/SimpleTest.csproj",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/java/testng/src/main/java/com/example/LocalWebDriver.java",
+		"/Users/mredman/Dropbox/Sauce/Competition/BrowserStack/automate-python-samples-master/parallel_tests/browsers.json",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/basic.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/pragmatic/pragmatic.sublime-project",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/webinar/local_parallel.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/webinar/saucehelper.py",
+		"/Users/mredman/Desktop/test.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Node/tapsterbot/htc.txt",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/webinar/config.json",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/python-parallel-wd/wd/parallel.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/config.json",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/basic-example-python-json.py",
+		"/Users/mredman/Dropbox/Sauce/Competition/BrowserStack/automate-python-samples-master/parallel_tests/run_parallel_tests.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/webinar/parallel_appium.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sauce-connect.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/webinar/parallel_example.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/bestPracticePythonScript.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/sauce-plugin.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/appium/sample-code/examples/python/android_sauce.py",
+		"/Users/mredman/Desktop/example.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/intuit/spec/features/ramen_spec.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/intuit/spec/sauce_helper.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/intuit/spec/spec_helper.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/Ruby/intuit/Gemfile",
+		"/Users/mredman/Dropbox/Sauce/Competition/BrowserStack/automate-python-samples-master/parallel_tests/test.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/datadriventest/chomper.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Java/WebDriverTest.java",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/datadriventest/newyahoo.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/sample-code/examples/python/android_contacts.py",
+		"/Users/mredman/Sites/sauce-tutorial/index.html",
+		"/Users/mredman/Desktop/MasterTarget.json",
+		"/Users/mredman/Desktop/intel.cs",
+		"/Users/mredman/Desktop/intel.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/newyahoo.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/datadriventest/NASDAQTickers.txt",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/datadriventest/csv.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/csv.py",
+		"/Users/mredman/Desktop/newyahoo.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/Hardway/hardway.sublime-project",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/saucehelper.py",
+		"/Users/mredman/Desktop/parallel.py",
+		"/Users/mredman/Desktop/webinar.json",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/basic-example-python.py",
+		"/Users/mredman/Dropbox/Sauce/Development/AppiumScripts/appium-sauce.py",
+		"/Users/mredman/Desktop/webinar.py",
+		"/Users/mredman/Desktop/example.cs",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/screenshot.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/first.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/seed_data.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/timerex.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/saucehelper-python/basic-example-json.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/saucehelper/saucehelper/example.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/browserstack.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScript/basic-example-python-json.py",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScript/config.json",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/example.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/SeleniumScripts/yahoo.rb",
+		"/Users/mredman/Dropbox/Sauce/Development/Selenium Scripts/config.json",
+		"/Users/mredman/Dropbox/Sauce/Development/Appium Scripts/appium-sauce.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Selenium Scripts/basic-example-python.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Appium Scripts/sauce-connect.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/sauce/sauce/website/templates/base.mako",
+		"/Applications/apache-tomcat-7.0.42/RUNNING.txt",
+		"/Users/mredman/Dropbox/Sauce/Development/Sauce-Connect-latest/sauce-connect.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/JSUnitTest.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Python/Hardway/ex1.py",
+		"/Users/mredman/Dropbox/Sauce/Development/Selenium Scripts/dd_amazon.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"c -u ajit009",
+			"##",
+			"element",
+			"save_high",
+			"(bootloader) ",
+			"shared tunnel",
+			"time",
+			"shared tunnel",
+			"webdirver",
+			"val",
+			"wd.",
+			"spinAssert(",
+			"spinAssert",
+			"payload",
+			"ticker_sym",
+			"user-detail",
+			"_account_masthead",
+			"requests"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"Redman Test",
+			"self.driver.",
+			"self.driver"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 97.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "depot.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"browe",
+				"parallel_tests/browsers.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
