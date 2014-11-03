@@ -1,1 +1,19 @@
 language: ruby
+
+env:
+  global:
+  	- APP_NAME=depot
+    - secure: W2Cx4h2SNH6wWA2Kf59USP68K7vISOvjYooy1t1xMKlALPVXSUA2lYnV9r69bQd6QFNgAPvvPpPq3l1yzM+fGICVFOeuO2f+j92o0XiLe2ROFezpYZl8ZkftKtsyMdLAcEzhqslXJEe+3ytDOLBz6rnEFXnELvTKIlF/Yq1FFpg=
+    - secure: FNxoz0k3E1B43DqoiO8bxT2jC8uH06CwOvfck0D98qh+fwGMNd0+oLCPXyFRTRTn/0NxBh3Tk9g0+NA61lRwTlFrbj4xhZ6xexFgrD7tcjGe3e0/YKmefigIWeddqPXev9dHBw+Puu8rTMTOYyzUbDdFMxd0aZoCxyTEhom5HKw=
+
+addons:
+	sauce_conect: true
+	
+script:
+	- echo pwd
+
+after_success:
+  - BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment success $APP_NAME $TRAVIS_BUILD_NUMBER travishost
+
+after_failure:
+  - BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment fail $APP_NAME $TRAVIS_BUILD_NUMBER travishost	
