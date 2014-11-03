@@ -10,7 +10,7 @@ addons:
   sauce_connect: true
 
 script:
-  - pwd
+  - ruby /home/travis/build/michaelbredman/depot/test/selenium/basic.rb
 
 after_success:
   - BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment success $APP_NAME $TRAVIS_BUILD_NUMBER travishost
