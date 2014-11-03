@@ -14,8 +14,9 @@ install:
   - sudo chmod a+x /usr/local/bin/bigpanda-deployment
 
 script:
+  - bundle install
   - pwd
-  - ruby ~/build/michaelbredman/depot/test/selenium/basic.rb
+  - ruby /home/travis/build/depot/test/selenium/basic.rb
 
 after_success:
   - BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment success $APP_NAME $TRAVIS_BUILD_NUMBER travishost
