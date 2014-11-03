@@ -9,6 +9,10 @@ env:
 addons:
   sauce_connect: true
 
+install:
+  - sudo curl https://s3-us-west-1.amazonaws.com/bp-public/utilities/bigpanda-deployment -o /usr/local/bin/bigpanda-deployment
+  - sudo chmod a+x /usr/local/bin/bigpanda-deployment
+
 script:
   - ruby /home/travis/build/michaelbredman/depot/test/selenium/basic.rb
 
