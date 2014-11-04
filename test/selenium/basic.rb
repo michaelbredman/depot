@@ -4,7 +4,7 @@ caps = Selenium::WebDriver::Remote::Capabilities.new
 caps["browserName"] = "internet explorer"
 caps["verison"] = "11"
 caps["platform"] = "Windows 8.1"
-caps["name"] = "Selenium on Sauce"
+caps["name"] = "Travis build:  #{ENV['TRAVIS_JOB_NUMBER']}"
 caps["tunnel-identifier"] = "#{ENV['TRAVIS_JOB_NUMBER']}"
 
 # In order to conenct to Sauce Labs you will need your Sauce Labs username and access key.
