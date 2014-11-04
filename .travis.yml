@@ -13,10 +13,12 @@ install:
   - sudo curl https://s3-us-west-1.amazonaws.com/bp-public/utilities/bigpanda-deployment -o /usr/local/bin/bigpanda-deployment
   - sudo chmod a+x /usr/local/bin/bigpanda-deployment
 
-script:
+before_script:
   - bundle install
   - rake db:migrate
   - rails server &> rails.log &
+
+script:
   - ruby /home/travis/build/michaelbredman/depot/test/selenium/basic.rb
 
 after_success:
