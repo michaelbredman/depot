@@ -4,7 +4,6 @@ caps = Selenium::WebDriver::Remote::Capabilities.new
 caps["browserName"] = "internet explorer"
 caps["verison"] = "11"
 caps["platform"] = "Windows 8.1"
-#caps['name'] = "local test"
 caps["name"] = "Travis build: #{ENV['TRAVIS_JOB_NUMBER']}"
 caps["tunnel-identifier"] = "#{ENV['TRAVIS_JOB_NUMBER']}"
 
