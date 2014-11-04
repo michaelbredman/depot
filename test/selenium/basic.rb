@@ -1,9 +1,10 @@
-require 'rubygems'
 require 'selenium-webdriver'
 caps = Selenium::WebDriver::Remote::Capabilities.new
-caps["browserName"] = "internet explorer"
-caps["verison"] = "11"
-caps["platform"] = "Windows 8.1"
+caps["browserName"] = "chrome"
+caps["verison"] = ""
+caps["platform"] = "OS X 10.8"
+#caps["name"] = "testing locally with default"
+caps["screen-resolution"] = "1280x1024"
 caps["name"] = "Travis build: #{ENV['TRAVIS_JOB_NUMBER']}"
 caps["tunnel-identifier"] = "#{ENV['TRAVIS_JOB_NUMBER']}"
 
@@ -12,5 +13,5 @@ caps["tunnel-identifier"] = "#{ENV['TRAVIS_JOB_NUMBER']}"
 driver = Selenium::WebDriver.for(:remote,
 :url => "http://#{ENV['SAUCE_USERNAME']}:#{ENV['SAUCE_ACCESS_KEY']}@ondemand.saucelabs.com:80/wd/hub",
 :desired_capabilities => caps)
-driver.navigate.to "http://localhost:3000/"
+driver.navigate.to "http://localhost:3000/products"
 driver.quit
