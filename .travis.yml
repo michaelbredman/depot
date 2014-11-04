@@ -15,7 +15,7 @@ install:
 
 script:
   - bundle install
-  - rails s
+  - rails s &
   - ruby /home/travis/build/michaelbredman/depot/test/selenium/basic.rb
 
 after_success:
