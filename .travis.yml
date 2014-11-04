@@ -15,7 +15,8 @@ install:
 
 script:
   - bundle install
-  - rails s &
+  - rake db:migrate
+  - rails server &> rails.log &
   - ruby /home/travis/build/michaelbredman/depot/test/selenium/basic.rb
 
 after_success:

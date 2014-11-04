@@ -12,5 +12,5 @@ caps["tunnel-identifier"] = "#{ENV['TRAVIS_JOB_NUMBER']}"
 driver = Selenium::WebDriver.for(:remote,
 :url => "http://#{ENV['SAUCE_USERNAME']}:#{ENV['SAUCE_ACCESS_KEY']}@ondemand.saucelabs.com:80/wd/hub",
 :desired_capabilities => caps)
-driver.navigate.to "http://localhost:3000"
+driver.navigate.to "http://localhost:3000/"
 driver.quit
