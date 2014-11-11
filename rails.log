@@ -1,0 +1,3 @@
+[2014-11-03 21:41:10] INFO  WEBrick 1.3.1
+[2014-11-03 21:41:10] INFO  ruby 2.1.3 (2014-09-19) [x86_64-darwin14.0]
+[2014-11-03 21:41:10] INFO  WEBrick::HTTPServer#start: pid=3938 port=3000
