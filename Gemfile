@@ -31,6 +31,7 @@ gem 'spring',        group: :development
 
 # Selenium
 gem 'selenium-webdriver'
+gem 'rspec-expectations', '~> 3.1.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
