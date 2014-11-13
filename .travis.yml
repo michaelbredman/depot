@@ -25,3 +25,7 @@ after_success:
 
 after_failure:
   - BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment fail $APP_NAME $TRAVIS_BUILD_NUMBER travishost
+
+deploy:
+  provider: heroku
+  api_key: "c05fb9ec-a84d-47db-83c0-16945194005f"
