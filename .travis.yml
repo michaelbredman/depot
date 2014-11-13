@@ -1,31 +1,32 @@
 language: ruby
 rvm:
-  - 2.1.3
+- 2.1.3
 env:
   global:
-    - APP_NAME=depot
-    - secure: W2Cx4h2SNH6wWA2Kf59USP68K7vISOvjYooy1t1xMKlALPVXSUA2lYnV9r69bQd6QFNgAPvvPpPq3l1yzM+fGICVFOeuO2f+j92o0XiLe2ROFezpYZl8ZkftKtsyMdLAcEzhqslXJEe+3ytDOLBz6rnEFXnELvTKIlF/Yq1FFpg=
-    - secure: FNxoz0k3E1B43DqoiO8bxT2jC8uH06CwOvfck0D98qh+fwGMNd0+oLCPXyFRTRTn/0NxBh3Tk9g0+NA61lRwTlFrbj4xhZ6xexFgrD7tcjGe3e0/YKmefigIWeddqPXev9dHBw+Puu8rTMTOYyzUbDdFMxd0aZoCxyTEhom5HKw=
-
+  - APP_NAME=depot
+  - secure: W2Cx4h2SNH6wWA2Kf59USP68K7vISOvjYooy1t1xMKlALPVXSUA2lYnV9r69bQd6QFNgAPvvPpPq3l1yzM+fGICVFOeuO2f+j92o0XiLe2ROFezpYZl8ZkftKtsyMdLAcEzhqslXJEe+3ytDOLBz6rnEFXnELvTKIlF/Yq1FFpg=
+  - secure: FNxoz0k3E1B43DqoiO8bxT2jC8uH06CwOvfck0D98qh+fwGMNd0+oLCPXyFRTRTn/0NxBh3Tk9g0+NA61lRwTlFrbj4xhZ6xexFgrD7tcjGe3e0/YKmefigIWeddqPXev9dHBw+Puu8rTMTOYyzUbDdFMxd0aZoCxyTEhom5HKw=
 addons:
   sauce_connect: true
-
 install:
-  - sudo curl https://s3-us-west-1.amazonaws.com/bp-public/utilities/bigpanda-deployment -o /usr/local/bin/bigpanda-deployment
-  - sudo chmod a+x /usr/local/bin/bigpanda-deployment
-  - bundle install
-
+- sudo curl https://s3-us-west-1.amazonaws.com/bp-public/utilities/bigpanda-deployment
+  -o /usr/local/bin/bigpanda-deployment
+- sudo chmod a+x /usr/local/bin/bigpanda-deployment
+- bundle install
 script:
-  - rake db:migrate
-  - rails server &> rails.log &
-  - ruby /home/travis/build/michaelbredman/depot/test/selenium/basic.rb
-
+- rake db:migrate
+- rails server &> rails.log &
+- ruby /home/travis/build/michaelbredman/depot/test/selenium/basic.rb
 after_success:
-  - BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment success $APP_NAME $TRAVIS_BUILD_NUMBER travishost
-
+- BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment success $APP_NAME
+  $TRAVIS_BUILD_NUMBER travishost
 after_failure:
-  - BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment fail $APP_NAME $TRAVIS_BUILD_NUMBER travishost
-
+- BP_API_TOKEN=c07b745b5db330137f62e44ce385090f bigpanda-deployment fail $APP_NAME
+  $TRAVIS_BUILD_NUMBER travishost
 deploy:
   provider: heroku
-  api_key: "c05fb9ec-a84d-47db-83c0-16945194005f"
+  api_key:
+    secure: lu3G68OFkeAmLUYpe3gxEscsJD7nZdRFs6RZpzaQAB+9/wTZkbJBPhlgNdrB2pHV93EtQXQR/iOZ9EGe/cicF38H/LUp/y0UcTPszJXXRmvCjmXux5VG98tKD9CMH/Tj2VjfLOvoKLDkpflOZ82J5iK1QY41XKgPirGhnNgdfKI=
+  app: depot
+  on:
+    repo: michaelbredman/depot
